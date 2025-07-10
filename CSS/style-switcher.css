@@ -1,4 +1,4 @@
-.style-switcher {
+/* .style-switcher {
   position: fixed;
   right: 0;
   top: 60px;
@@ -12,9 +12,24 @@
   transform: translateX(100%);
 }
 
+*/
+
+.style-switcher {
+  position: fixed !important;
+  top: 60px !important;
+  right: 0 !important;
+  left: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  z-index: 9999 !important;
+  background: red;
+  /* TEMP: helps test */
+}
+
 .style-switcher.open {
   transform: translateX(-25px);
 }
+
 
 .style-switcher .s-icon {
   position: absolute;
