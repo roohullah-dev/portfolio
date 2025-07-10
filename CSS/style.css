@@ -894,10 +894,7 @@ h3.my-profession {
     z-index: 20;
   }
 
-  .main-content {
-    margin-left: 0;
-    padding: 20px;
-  }
+
 
   .main-content.shift {
     margin-left: 270px;
@@ -969,8 +966,8 @@ h3.my-profession {
 
   /* Image inside the outline */
   .home-image .outline img {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
@@ -1065,6 +1062,8 @@ h3.my-profession {
     width: 100%;
     height: 280px;
   }
+
+
 }
 
 @media (max-width: 576px) {
@@ -1094,5 +1093,11 @@ h3.my-profession {
   .contact .contact-info-item {
 
     margin-bottom: 20px !important;
+  }
+
+  .home-image .outline {
+    padding: 8px;
+    width: 250px;
+    height: 250px;
   }
 }
