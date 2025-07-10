@@ -90,3 +90,10 @@
 .style-switcher .color-5 {
   background: #f021b2;
 }
+
+
+@media (max-width: 1200px) {
+  .style-switcher {
+    right: 30px !important;
+  }
+}
