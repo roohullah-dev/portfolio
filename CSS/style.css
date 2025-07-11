@@ -1131,7 +1131,7 @@ h3.my-profession {
 
   }
 
-  ul li {
+  .about .row .about-content .about-text ul li {
     font-size: 14px !important;
     font-weight: 400 !important;
     line-height: 1.6 !important;
