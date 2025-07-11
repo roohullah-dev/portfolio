@@ -443,9 +443,15 @@ h3.my-profession {
   margin-top: 40px;
 }
 
+.about .about-content .row .personal-info .row {
+  /* background-color: orange; */
+  flex-direction: column;
+  width: 100% !important;
+}
+
 .about .about-content .personal-info .info-item {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 80%;
+  max-width: 60%;
 }
 
 .about .about-content .personal-info .info-item p {
@@ -1097,11 +1103,22 @@ h3.my-profession {
 
   h3.hello,
   h3.my-profession {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .home-info p {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 30px !important;
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: auto;
+    /* word-spacing: - 0.05em; */
+
   }
 
   .contact .contact-info-item {
