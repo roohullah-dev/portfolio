@@ -1132,9 +1132,9 @@ h3.my-profession {
   }
 
   .about-text ul li {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.6;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
   }
 
   .contact .contact-info-item {
