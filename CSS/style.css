@@ -1129,7 +1129,7 @@ h3.my-profession {
     -webkit-hyphens: auto !important;
     -ms-hyphens: auto !important;
     hyphens: auto !important;
-    max-width: 500px !important;
+    font-weight: 400 !important;
 
   }
 
