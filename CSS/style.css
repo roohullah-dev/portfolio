@@ -883,6 +883,14 @@ h3.my-profession {
     padding: 0;
   }
 
+  .colors {
+    display: none;
+  }
+
+  .colors.show {
+    display: block;
+  }
+
   .aside {
     left: -270px;
     /* hide sidebar */
