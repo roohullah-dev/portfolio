@@ -1121,6 +1121,18 @@ h3.my-profession {
 
   }
 
+  p {
+    font-size: 14px !important;
+    /* margin-bottom: 30px !important; */
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    -webkit-hyphens: auto !important;
+    -ms-hyphens: auto !important;
+    hyphens: auto !important;
+    max-width: 500px !important;
+
+  }
+
   .contact .contact-info-item {
 
     margin-bottom: 20px !important;
