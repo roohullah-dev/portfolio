@@ -1102,6 +1102,11 @@ h3.my-profession {
     grid-template-columns: 1fr;
   }
 
+  .portfolio-layer h4 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
   .service .service-item {
     flex: 0 0 100%;
     max-width: 100%;
