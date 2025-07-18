@@ -910,6 +910,10 @@ h3.my-profession {
     transition: all 0.3s ease;
   }
 
+  .aside .logo {
+    top: 118px !important;
+  }
+
   .aside.open {
     left: 0;
     /* show sidebar when toggled */
