@@ -1090,6 +1090,10 @@ h3.my-profession {
     transition: all 0.3s ease;
   }
 
+  .about .about-content .personal-info .info-item {
+    width: 95vw !important;
+  }
+
   .section {
     padding: 0 15px;
   }
@@ -1108,16 +1112,6 @@ h3.my-profession {
     padding-right: 2.5rem;
   }
 
-
-
-  /* .contact .flex {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    flex-wrap: wrap !important;
-    text-align: center;
-  } */
 
   .contact {
     min-height: 100vh;
