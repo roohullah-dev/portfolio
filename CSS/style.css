@@ -775,6 +775,7 @@ h3.my-profession {
   /* max-width: 25%; */
   text-align: center;
   margin-bottom: 60px;
+  background-color: orange;
 }
 
 .contact .contact-info-item .icon {
