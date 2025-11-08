@@ -771,11 +771,13 @@ h3.my-profession {
 }
 
 .contact .contact-info-item {
-  flex: 0 0 25%;
+  /* flex: 0 0 25%; */
   /* max-width: 25%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin-bottom: 60px;
-  background-color: orange;
 }
 
 .contact .contact-info-item .icon {
